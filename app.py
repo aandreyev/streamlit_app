@@ -28,7 +28,7 @@ if st.session_state['user'] is None:
 
     st.stop()
 
-# 🔥 Sidebar: Welcome message and Log Out button
+# 🔥 Sidebar: Welcome and Log Out
 with st.sidebar:
     st.success(f"✅ Logged in as:\n\n{st.session_state['user']['name']}")
     st.write(st.session_state['user']['email'])
@@ -38,6 +38,14 @@ with st.sidebar:
         st.success("Logged out successfully. Please login again.")
         time.sleep(1)
         st.rerun()
+
+# Restrict by email domain
+allowed_domain = "adlvlaw.com"
+
+user_email = st.session_state['user']['email']
+if not user_email.endswith(f"@{allowed_domain}"):
+    st.error("🚫 Access denied. You must use a @yourcompany.com email address.")
+    st.stop()
 
 # --- Main App Content ---
 st.title("🎯 Your Internal App")
