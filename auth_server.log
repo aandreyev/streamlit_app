@@ -1,10 +1,10 @@
-INFO:     Started server process [7636]
+INFO:     Started server process [19660]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:49601 - "GET /login HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:49603 - "GET /callback?code=1.AWYAXAs1ZST4dki8r-VQ1mhvebts17lIky5Lpc2J6rzVnnPvAL5mAA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9n58hadhJL-umF7DX9aml-Y5IKMRktLAFUetGNVo9hv_33wU3jsaZLBf6gqwY4nqDvqreEfEa9CURF6_pQtSPjuJ23kG5Vw585LAWK61rfX41gATLFObfMkzg1ThszJEkiWe4hYG0X-UQ4w9sD5ffM3ilUnJleoGId5vaMIhBpfL7cjImLAko3LtZSLNSaeWqTe-rPwxe8M519BpVIzNNbF6qEAjcjFlhE_PJhNP7zmIOJ9277f5kOEhMfsHkogZmc_xoWg0I_hmK4H3_qwrKdqxJY9rALEtu2IU6resb316IIU2Fe_fKaWliO5guB-3emMPFvDQ82GdzE5bSS7uxrDZihzIiafCwRA0TMt25dFAz4RUMojOKMKbUQc31f-xgSodGyPJjPYH3BJTKUt8AF9jiJVUmBMGssJ3FWlHywJofF0oEmOZsqMrAt-vuSOioT_7lS8WFUbTNVF4CfxhFgvLgpRWUtf5DCgDwkzIN23MnVO7JXgynWmNb_ycPeP7gSgv-aCp6q2yco9ZQYM8XvqQkCPUUsA8JYegJu7qaAfaXaGZ-f79mqNxCvH-m6kPPmQlaU9ixhcmm37ZaAnqe1A4d13G68EbyozTYoebxfQt-Wb3k9ke8peDgvZruQOz7_dYq_O-k63GqK75adRN-5ATwsUk12a0wdvYRo2F2f1icTu1ysCx3HdGTy-m3GCX2Kc8wW1z1ciR5ttUi_yvMoeAWYDIZ1TtqBuPzy1tU7dezcyw20Do7sTrmY4p6pWZVaD8iMA7pCdYdOgT1971Hb67rFTOWi-5Rk3W2pXXzopK4RJLU&state=12345&session_state=0040ba69-7200-ae21-6da0-255d07616e78 HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56418 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56420 - "GET /callback?code=1.AWYAXAs1ZST4dki8r-VQ1mhvebts17lIky5Lpc2J6rzVnnPvAL5mAA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P-Yq7oE-VCFebs1MVnuSTbE8jLDxiF_l4Am6Qm1QrYYPPXZSc0POLbnLXwF5rZrT_aS7L_UhUy7vTRdCWekFqI5okJoUhtiuDYnBlwEJZPYJrteKL0jmWmQuTZ22zSU4VuQRQvc4K1fwBVoyM0c3MDI5Qz2AHIvqTQSmrnjDg2y5n3Thp5ngdq92uLuvyExh9AEg60aAFfWjgjn41ml1Dr6fTuoBgDX8ue1m7Z_ABQCp1QZXOIGABtOkujUDCLiuuTFnGlI_OVtziN6A6u_hEdTVQ9mWzhszpqzEE6So96858HgH8DGfsL_Vbm4wRLe96waf0HJJeZp2Hq2ZdlFMu_v5PIg8SbuBBcr-ITRULPL_ZDYGRpUIlvf2Y2Kuo7Y_kHOPyXuAi2D3S3F4eZHPbfayFvDgMg9b07DvVlfXiaUcLsl7Uvc5AQuPrLZQdAiGFl4mVooosI-GzwDwHmhca3ByFjwafHy5SffevaoxYLk-mtxfF9-O0nxXB-3lLLf1_10Zd0LNSvGvS80up-6c9Ce5Hro5-SvmOqeKqFZfpnNTNkW1JumTPHcYrWcL-N3m097ext630vW8jic-jLjEPPhQ7svc5k0j09JYlp2PDohMSxRAKU8UnmgyysCgRRFpECKU7aateX-vDfubWiOc73vxaKeGnfOwGcqPYVvAehE0j5eRQVP4wGMHUKgyVgcLKUCk_d0AWTFDF4qKFMYlrver0-bNisqU8qxxdA9rdE4p-vUjGMrLWk3uehfivEHBB1CvzI7Q6OMX-y1QpJ8m_ionse_eI4OHehRc45A6UofQsmNuPHyglA&state=12345&session_state=0040ba69-7200-ae21-6da0-255d07616e78 HTTP/1.1" 307 Temporary Redirect
 INFO:     Shutting down
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
-INFO:     Finished server process [7636]
+INFO:     Finished server process [19660]

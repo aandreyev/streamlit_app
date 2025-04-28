@@ -40,7 +40,7 @@ with st.sidebar:
         st.rerun()
 
 # Restrict by email domain
-allowed_domain = "adlvlaw.com"
+allowed_domain = "adlvlaw.com.au"
 
 user_email = st.session_state['user']['email']
 if not user_email.endswith(f"@{allowed_domain}"):
